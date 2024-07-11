@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="feedback-form">
+        <h1>Survey Form</h1>
+        <label for="fname">First Name</label>
+        <input type="text" style="padding: 2px; height: 45px;">
+        <label for="lname">Last Name</label>
+        <input type="text" style="padding: 2px; height: 45px;">
+        <label for="email">Email</label>
+        <input type="email"style="padding: 2px; height: 45px;%;" >
+        <div class="rating">
+            <p><b>How was your overall experience?<sup>*</sup></b></p>
+            <input type="radio" id="star5" name="rating" value="1">
+            <label for="star5">★</label>
+            <input type="radio" id="star4" name="rating" value="2">
+            <label for="star4">★</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">★</label>
+            <input type="radio" id="star2" name="rating" value="4">
+            <label for="star2">★</label>
+            <input type="radio" id="star1" name="rating" value="5">
+            <label for="star1">★</label>
+        </div>
+        <div class="checkbox-group">
+            <p><b>Was our representative(check all that apply):</b></p>
+            <label></label>
+            <label><input type="checkbox"> Professional and courteous?</label>
+            <label><input type="checkbox"> Patient?</label>
+            <label><input type="checkbox"> Knowledgeable?</label>
+            <label><input type="checkbox"> Warm and respectful?</label>
+            <label><input type="checkbox"> Friendly?</label>
+            <label><input type="checkbox"> Clear and direct?</label>
+            <label><input type="checkbox"> Efficient?</label>
+        </div><br>
+        <button>Submit Feedback</button>
+    </div>
+</body>
+</html>

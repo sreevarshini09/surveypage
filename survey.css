@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+   
+}
+.feedback-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+}
+.feedback-form h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.feedback-form input[type="text"], 
+.feedback-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.feedback-form .rating {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.feedback-form .rating input {
+    display: none;
+}
+.feedback-form .rating label {
+    font-size: 2em;
+    color: #ddd;
+    cursor: pointer;
+}
+.feedback-form .rating input:checked ~ label {
+    color: orange;
+}
+.feedback-form .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feedback-form .checkbox-group label {
+    flex: 0 0 48%;
+}
+.feedback-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+.feedback-form{
+    width: 50%;
+    height: auto;
+}
